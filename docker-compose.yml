@@ -1,0 +1,13 @@
+services:
+  traffic-analysis:
+    build: .
+    image: vehicle-pedestrian-traffic-analysis:latest
+    container_name: vehicle-pedestrian-traffic-analysis
+    volumes:
+      - ./:/data # input video + visdrone.onnx + generated outputs shared with host
+    # The OpenCV highgui window only works on Linux + X11. Leave disabled on
+    # macOS/Windows; the binary still writes the annotated video, CSV and JSON
+    # results to the project folder.
+    # environment:
+    #   - DISPLAY=${DISPLAY}
+    # Add "- /tmp/.X11-unix:/tmp/.X11-unix" to the volumes above to enable X11.

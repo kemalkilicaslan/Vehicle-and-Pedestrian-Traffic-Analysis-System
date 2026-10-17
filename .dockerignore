@@ -1,0 +1,23 @@
+# Version control
+.git
+.gitignore
+
+# Build output
+build/
+cmake-build-*/
+
+# Large media, model and generated result files (mounted at runtime via volume)
+*.mp4
+*.mov
+*.avi
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.onnx
+*.csv
+*.json
+
+# Documentation
+README.md
+LICENSE

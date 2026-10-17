@@ -1,0 +1,100 @@
+{
+  "video": "Vehicle-and-Pedestrian-Traffic.mp4",
+  "resolution": "1920x1080",
+  "fps": 59.94,
+  "processed_frames": 3039,
+  "analysis_duration_sec": 50.68,
+  "model": "visdrone.onnx",
+  "conf": 0,
+  "iou": 0.3,
+  "motion_thresh": 1.5,
+  "motion_window": 5,
+  "zones": {
+    "CROSSWALK_S": {
+      "unique_pedestrian": 896,
+      "unique_vehicle": 36,
+      "peak_instant_pedestrian": 133,
+      "peak_instant_vehicle": 5,
+      "avg_dwell_sec_pedestrian": 3.44,
+      "avg_dwell_sec_vehicle": 0.58
+    },
+    "CROSSWALK_NW": {
+      "unique_pedestrian": 456,
+      "unique_vehicle": 6,
+      "peak_instant_pedestrian": 57,
+      "peak_instant_vehicle": 1,
+      "avg_dwell_sec_pedestrian": 2.45,
+      "avg_dwell_sec_vehicle": 0.65
+    },
+    "CROSSWALK_NE": {
+      "unique_pedestrian": 199,
+      "unique_vehicle": 18,
+      "peak_instant_pedestrian": 25,
+      "peak_instant_vehicle": 4,
+      "avg_dwell_sec_pedestrian": 2.20,
+      "avg_dwell_sec_vehicle": 0.53
+    },
+    "ROAD_MID": {
+      "unique_pedestrian": 587,
+      "unique_vehicle": 47,
+      "peak_instant_pedestrian": 129,
+      "peak_instant_vehicle": 8,
+      "avg_dwell_sec_pedestrian": 4.59,
+      "avg_dwell_sec_vehicle": 1.26
+    },
+    "ROAD_SW": {
+      "unique_pedestrian": 250,
+      "unique_vehicle": 16,
+      "peak_instant_pedestrian": 28,
+      "peak_instant_vehicle": 3,
+      "avg_dwell_sec_pedestrian": 2.38,
+      "avg_dwell_sec_vehicle": 0.29
+    },
+    "ROAD_E": {
+      "unique_pedestrian": 36,
+      "unique_vehicle": 24,
+      "peak_instant_pedestrian": 11,
+      "peak_instant_vehicle": 10,
+      "avg_dwell_sec_pedestrian": 5.51,
+      "avg_dwell_sec_vehicle": 17.10
+    },
+    "ROAD_NW": {
+      "unique_pedestrian": 10,
+      "unique_vehicle": 22,
+      "peak_instant_pedestrian": 5,
+      "peak_instant_vehicle": 8,
+      "avg_dwell_sec_pedestrian": 14.57,
+      "avg_dwell_sec_vehicle": 14.28
+    },
+    "SIDEWALK_E": {
+      "unique_pedestrian": 817,
+      "unique_vehicle": 10,
+      "peak_instant_pedestrian": 124,
+      "peak_instant_vehicle": 2,
+      "avg_dwell_sec_pedestrian": 5.08,
+      "avg_dwell_sec_vehicle": 5.29
+    },
+    "SIDEWALK_W": {
+      "unique_pedestrian": 481,
+      "unique_vehicle": 4,
+      "peak_instant_pedestrian": 32,
+      "peak_instant_vehicle": 1,
+      "avg_dwell_sec_pedestrian": 2.22,
+      "avg_dwell_sec_vehicle": 0.05
+    },
+    "SIDEWALK_N": {
+      "unique_pedestrian": 242,
+      "unique_vehicle": 9,
+      "peak_instant_pedestrian": 36,
+      "peak_instant_vehicle": 1,
+      "avg_dwell_sec_pedestrian": 2.08,
+      "avg_dwell_sec_vehicle": 0.12
+    }
+  },
+  "frame_overall": {
+    "unique_pedestrian": 2740,
+    "unique_vehicle": 118,
+    "person_type_distribution": {"pedestrian": 2723, "people": 953},
+    "vehicle_type_distribution": {"awning-tricycle": 5, "bicycle": 44, "bus": 13, "car": 33, "motor": 59, "tricycle": 4, "truck": 5, "van": 25}
+  }
+}
